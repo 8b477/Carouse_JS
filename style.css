@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+#wrap{
+    position: relative;
+    border: solid black 2px;
+    margin: 10% auto 0;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#arrowLeft{
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    height: 50px;
+    width: 50px;
+    background-image: url("./pictures/arrowLeft.png");
+    background-size: cover;
+}
+
+#arrowRight{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    width: 40px;
+    background-image: url("./pictures/arrowRight.png");
+    background-size: cover;
+}
+
+.imgOne{
+    background-image: url("./pictures/carou2.jpg");
+}
+
+.imgTwo{
+    background-image: url("./pictures/carou3.jpg");
+}
